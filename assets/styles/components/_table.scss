@@ -1,0 +1,73 @@
+.tabs-manager{
+    width: 95%;
+    margin: 0 auto;
+}
+.centro{
+    margin: 0 auto;
+}
+.container-table-p{
+    width: 95%;
+    padding: 0 0 150px 0;
+}
+.cont-finder-p{
+    width: 95%;
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+}
+.container-table{
+    width: 95%;
+    padding: 0 0 150px 0;
+}
+.cont-finder{
+    width: 95%;
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+}
+.input-finder{
+    width: 20%;
+}
+.btn-new_agencia{
+    height: 50px;
+}
+.encabezado{
+    background-color: #004B8E;
+    color: #FAFAFA;
+}
+.titulo_tabla
+{
+    color: #FAFAFA;
+    font-size: .9rem;
+}
+.mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+    background-color: rgba(0, 75, 142, 0.5)
+}
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+    background-color: #004B8E;
+}
+.cont-interno-contenido{
+    padding: 50px 0;
+}
+
+.input-modal>.mat-form-field-infix {
+    width: 280px;
+}
+.input-modal>.mat-form-field-wrapper {
+    width: 280px;
+}
+.section-button{
+    margin: 35px 0 0 0;
+}
+.input-modal{
+    margin: 10px 0;
+}
+@media only screen and (min-width: 992px){
+    .container-table-p,
+    .cont-finder-p
+    {
+        width: 60%;
+    }
+    
+}
+

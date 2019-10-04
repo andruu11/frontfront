@@ -1,0 +1,128 @@
+/***************************
+---***PLANTILLA MENU****----
+***************************/
+  .cont-principal{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+  .contenedor-interno {
+    height: 100%;
+    width: 100%;
+
+  }
+  .contenedor-lateral {
+    width: auto;
+    height: 95%;
+  }  
+  .contenido-interno{
+    padding: 50px 0;
+  }
+  .contendor-lateral_menu {
+    background:#004B8E;
+    color: #FAFAFA;
+  }
+  .cont-superior{
+    background: #004B8E;
+    display: flex;
+  }
+  .contenedor-estado{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-imagen{
+    width: 100%;
+  }
+  .contenedor-iconos{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+  }
+  .texto-estado{
+    font-size: .7rem;
+    padding: 0;
+    line-height: 1rem;
+    color: #FAFAFA;
+  }
+  .espaciado-icono-menu {
+    padding: 0 14px;
+  }
+  .menu-icon{
+    cursor: pointer;
+    font-size: 2rem;
+    color: #FAFAFA;
+  }
+  .item-adm{
+    margin: 30px 0;
+  }
+  ul.item-adm>li{
+    padding: .8rem 3rem;
+    border-top: .08rem solid #FAFAFA;
+    border-bottom: .08rem solid #FAFAFA;
+  }
+  ul.item-adm>li:hover{
+    background-color: #F57D31;
+  }
+  ul.item-adm>li.active{
+    background-color: #F57D31;
+  }
+  .contenedor-items-menu{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont-imagen-circular{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: #C2185B;
+    align-self: center;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+  
+  }
+  .contenido-circular{
+    display: block;
+    color: #FAFAFA;
+    font-size: 4rem;
+  }
+  .boton-estado-activo{
+    color: #7FBA00;
+    font-size: .5rem;
+    padding: 0 .3rem 0 0;
+  }
+  .imagen-toolbar{
+    display: block;
+    margin: 0 auto;
+  }
+  .lista-menu{
+    cursor: pointer;
+  }
+  .btn-logout{
+    color: #FAFAFA;
+    font-size: 1.5rem;
+    padding: 5px;
+    background: rgba(255, 255, 255, .05);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .btn-logout:hover{
+    background: rgba(255, 255, 255, .08);
+  }
+  
+  @media only screen and (min-width: 992px){
+    ul.item-adm>li{
+      padding: .8rem 4rem;
+    }
+  }
